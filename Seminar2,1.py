@@ -12,7 +12,10 @@ fact = 1
 i = 1
 
 while i <= num:
+    if num == 0 :
+        print(f'{num}! = 1')
     fact *= i
     i += 1
+
 
 print(f'{num}! = {fact}')
