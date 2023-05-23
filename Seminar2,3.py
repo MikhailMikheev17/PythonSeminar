@@ -27,6 +27,8 @@ for i in range(N):
     temp = int(input())
     if temp > 0:
         count += 1
+        if count > max1:
+            max1 = count
     else:
         if count > max1:
             max1 = count
