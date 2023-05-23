@@ -11,11 +11,19 @@ num = int(input('Enter a number > '))
 fact = 1
 i = 1
 
-while i <= num:
-    if num == 0 :
-        print(f'{num}! = 1')
-    fact *= i
-    i += 1
+# while i <= num:
+#     if num == 0 :
+#         print(f'{num}! = 1')
+#     fact *= i
+#     i += 1
+# print(f'{num}! = {fact}')
 
+j = 1
+factorial = 1
+res = 1 
 
-print(f'{num}! = {fact}')
+for j in range(num):
+    res *= factorial
+    factorial += 1
+
+print(f'{num}! = {res}')
