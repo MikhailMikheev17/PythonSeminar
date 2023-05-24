@@ -3,7 +3,10 @@
 
 num = int(input('Enter number N > '))
 p=1
-
+count = 0 # количестов степеней двойки 
 while p <= num:
     print(p,end=' ')
     p=p*2
+    count += 1
+
+print(f'\nКоличсетво степеней двойки до {num} = {count}')
