@@ -25,9 +25,7 @@ for i in  range(length):
 
 print(list_1)
 
-count = 0
-for i in range(length):
-    if list_1[i] != list_1[i - 1]:
-        count += 1 
- 
-print(count)
+
+
+print(list(set(list_1)))
+print('Unic objects > ',len(list(set(list_1))))
