@@ -20,9 +20,10 @@ print(list_1)
 k = int(input('k = '))
 
 min = abs(k - list_1[0])
+index = 0
 for i in range(1, length):
       count = abs(k - list_1[i])
       if count < min:
             min = count
-
-print(f'Число {list_1[i]} в списке  наиболее близко по величине к числу {k}, их разница {abs(k - list_1[i])}')
+            index = i
+print(f'Число {list_1[index]} в списке  наиболее близко по величине к числу {k}, их разница {abs(k - list_1[index])}')5
