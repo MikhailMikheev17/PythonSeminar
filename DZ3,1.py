@@ -18,8 +18,9 @@ for i in  range(length):
 
 print(list_1)
 
-count = 0
-for i in range(length):
-    if list_1[i] == k : count += 1
+# count = 0
+# for i in range(length):
+#     if list_1[i] == k : count += 1
 
+count = list_1.count(k)
 print(f'count {k} = {count}')    
